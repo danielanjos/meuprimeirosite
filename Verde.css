@@ -1,0 +1,210 @@
+#bg
+{
+	background: url(Imagens/9121raios.jpg); /**background da pagina 'chat.html'**/
+}
+
+body
+{
+	background: lightgreen;
+}
+/** Configurações da barra de menu **/
+.barramenu
+{
+	background-image: url(Imagens/bg_barra_verde.png);
+	position: fixed;
+	top:0%;
+	left: 0%;
+	display: block;
+	width: 100%;
+	height: 45px;
+	border: 1px solid green;
+	border-radius: 10px;
+}
+
+/** Posição do logo e dos links */
+#imagens, #linkbarramenu
+{
+	float: left;
+	width: auto;
+	margin: 0 auto;
+	padding-left: 10px;
+	display:block
+}
+#imagens li, #linkbarramenu li
+{
+	display:inline;
+	list-style:none;
+	float:left;
+	margin:10px 20px;
+}
+/** Divisão entre logo e links **/
+.divisao
+{
+	display: inline;
+	float: left;
+	height:38px;
+	width:1px;
+	border-left:1px solid darkgreen;
+	border-right:1px solid darkgreen;
+	display:block;
+	margin:3px 25px 3px auto;
+}
+/** Formatação da fonte dos links da barra de menu **/
+#linksbarramenu ul li a
+{
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+a
+{
+	color:black;
+}
+
+a:hover 
+{
+	font-size: 120%;
+}
+
+/** Imagem sobre o tema **/
+#ImagemTema
+{
+	width: 100%;
+	height: 50%;
+	border: 1px solid green;
+	border-radius: 10px;
+}
+/** Lista para visitante escolher a cor do site **/
+#Escolha
+{
+	font-weight: bold;
+	color: none;
+	top: 55%;
+	position: absolute;
+	border: 1px solid;
+	width: 99%;
+	border-radius: 3px;
+}
+
+#Escolha a:hover
+{
+	text-decoration: underline;
+}
+/** Cores e efeitos nos links **/
+#Link_Azul 
+{
+	text-decoration:none;
+	color: blue;
+}
+
+#Link_Verde
+{
+	text-decoration: none;
+	color: green;
+}
+
+#Link_Laranja
+{
+	text-decoration: none;
+	color: darkorange;
+	
+}
+
+#Link_Cinza
+{
+	text-decoration: none;
+	color: gray;
+}
+
+/**Linha de divisão**/
+#divide
+{
+	position: static;
+}
+/** Imagens do lado esquerdo **/
+.Imagens_Esquerda
+{
+	width: 13%;
+	height: 20%;
+}
+
+#Imagem_Esquerda1
+{
+	top: 60%;
+	left: 2%;
+	position: absolute;
+	border: 1px solid green;
+	border-radius: 10px;
+}
+
+#Imagem_Esquerda2
+{
+	top:84%;
+	left: 2%;
+	position:absolute;
+	border: 1px solid green;
+	border-radius: 10px;
+}
+
+#Imagem_Esquerda3
+{
+	top: 108%;
+	left: 2%;
+	position: absolute;
+	border: 1px solid green;
+	border-radius: 10px;
+}
+/** Div com o texto central **/
+#Texto_Centro
+{
+	background-image: url(Imagens/texto_centro.jpg);
+	width: 63%;
+	height: 68%;
+	position: absolute;
+	left: 17%;
+	top: 60%;
+	color: lightgreen;
+	border: 1px solid green;
+	border-radius: 10px;
+}
+/** Div com links para noticias que ficarão na div do texto central **/
+#Links_Direita 
+{
+	background-image: url(Imagens/link_direita.jpg);
+	width: 17%;
+	height: 68%;
+	position: absolute;
+	top: 60%;
+	right: 1%;
+	border: 1px solid green;
+	border-radius: 10px;
+}
+/** Formatação dos links **/
+#Links_Direita ul li 
+{
+	list-style: none;
+}
+
+#Links_Direita a
+{
+	color: lightgreen;
+	text-decoration: none;
+}
+
+#Links_Direita a:hover
+{
+	text-decoration: underline;
+}
+
+#rodape
+{
+	width: 97%;
+	height: 18%;
+	left: 2%;
+	position: absolute;
+	border:1px solid green;
+	top: 130%;
+	font-size: 130px;
+	border-radius: 20px;
+}
